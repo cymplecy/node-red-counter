@@ -71,7 +71,7 @@ module.exports = function(RED) {
                 } else {
                     node.count = node.init;
                 }
-                if( !msg.hasOwnProperty("payload")) {
+                if ( !msg.hasOwnProperty("payload") ) {
                     return;
                 }
             }
